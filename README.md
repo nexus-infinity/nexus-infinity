@@ -38,22 +38,22 @@ The FIELD system implements a tetrahedral geometry with internal chambers for si
 | Symbol | Name             | Prime | Frequency | Role                        | Position              |
 |:------:|:-----------------|:-----:|:---------:|:--------------------------- |:----------------------|
 | ◻      | Akron Gateway    | 2     | 396 Hz    | Intake, sovereignty gate    | Foundation            |
-| •      | OBI-WAN          | 19    | 963 Hz    | Pattern recognition         | Base vertex           |
+| ●      | OBI-WAN          | 19    | 963 Hz    | Pattern recognition         | Base vertex           |
 | ▼      | TATA             | 23    | 432 Hz    | Truth anchor                | Base vertex           |
 | ▲      | ATLAS            | 17    | 528 Hz    | Knowledge mapping           | Base vertex           |
-| 🔷     | Queen's Chamber  | 7     | 528 Hz    | Validation                  | 20% height            |
+| ◆      | Queen's Chamber  | 7     | 528 Hz    | Validation                  | 20% height            |
 | ⊗      | King's Chamber   | 11    | 852 Hz    | Translation bridge          | 61.8% height (φ⁻¹)    |
 | ⭟      | Grand Gallery    | 31    | 639 Hz    | Central passage             | Origin (0,0,0)        |
-| ◼︎     | DOJO             | 13    | 741 Hz    | Orchestration               | Apex (100%)           |
+| ◼      | DOJO             | 13    | 741 Hz    | Orchestration               | Apex (100%)           |
 
 > **Symbols serve as visual identifiers in file paths, configuration frontmatter, UI, and ontology declarations.**
 
 ### Signal Flow
 
 1. **Intake:** ◻ Akron Gateway receives and gates all inbound signals.
-2. **Base Processing:** Signals route through the triad (•, ▼, ▲) for pattern recognition, truth validation, and mapping.
-3. **Chamber Validation:** Queen's Chamber validates; King's Chamber translates.
-4. **Orchestration:** ◼︎ DOJO coordinates multi-stage cycles (S0→S7 or S0→S11).
+2. **Base Processing:** Signals route through the triad (●, ▼, ▲) for pattern recognition, truth validation, and mapping.
+3. **Chamber Validation:** ◆ Queen's Chamber validates; ⊗ King's Chamber translates.
+4. **Orchestration:** ◼ DOJO coordinates multi-stage cycles (S0→S7 or S0→S11).
 5. **Output:** Coherent signals (≥0.70 threshold) archive to sovereign storage; others are recalibrated.
 
 ---
@@ -89,7 +89,7 @@ All configuration and ontology files must declare their geometric context in YAM
 
 ```
 ---
-field:symbol: "•"
+field:symbol: "●"
 field:server_name: "OBI-WAN"
 field:ascii_alias: "obi_wan"
 field:prime: 19
@@ -151,5 +151,3 @@ See the [LICENSE](./LICENSE) file.
 > **Geometric routing:** Symbols as addresses, primes as identity, validation as protocol.
 
 ---
-
-**You can copy this entire block directly into your GitHub README.md editor — no extra formatting or fixing needed!**
